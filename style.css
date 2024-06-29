@@ -133,9 +133,19 @@
 
 }
 
+.mediaV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .imageS2{
     height: 381px;
     width: 508px;
+    position: relative;
+    z-index: 5;
+}
+.contenu{
+    position: absolute;
 }
 
 .TextS1{
@@ -163,6 +173,7 @@
     width: 1349px;
     background-color: black;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     color: white;
     border-bottom: 8px solid rgb(34, 31, 31);
@@ -261,27 +272,110 @@
 .section5{
     height: 925px;
     width: 1349px;
-    background-color: aqua;
+    background-color: black;
     padding: 72px 0pxs;
- 
     align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid gray;
+    
    
 }
 
 .TextS5{
     height: 781px;
     width: 1028px;
-    background-color: blue;
+    background-color: black;
     align-items: center;
     
-    margin: 160px 
+     
 }
 
+.item {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 524px;
+    width: 1028px;
+}
 
+.item1{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.87);
+    background-color: rgb(46, 39, 39);
+     padding: 24px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+}
 
+.item2{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(37, 31, 31);
+    border-bottom: 4px;
+    padding: 24px;
+}
 
+.item3{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(17, 14, 14);
+    padding: 24px;
+}
 
+.item4{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(37, 33, 33);
+    padding: 24px;
+}
 
+.item5{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(56, 43, 43);
+    padding: 24px;
+}
+
+.item6{
+    height: 64px;
+    width: 1028px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(34, 29, 29);
+    padding: 24px;
+}
+.add{
+    height: 45px;
+    width: 45px;
+
+}
+
+.footerSection{
+    height: 270px;
+    width: 1124px;
+    /* padding: 0 48px; */
+    /* margin: 72px 112px; */
+    background-color: rgb(22, 22, 21);
+}
 
 
 
