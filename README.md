@@ -1,1 +1,1 @@
-https://aboub95.github.io/Netflix-en-ligne/gi
+https://aboub95.github.io/Netflix-online/
